@@ -25,14 +25,14 @@ import { Badge } from "@/components/ui/badge";
 /** ---------- EASY-EDIT CONTENT ---------- */
 const PROFILE = {
   name: "Pranav Joshi",
-  role: "Senior Scientist · Organoids & 3D Bioprinting",
+  role: "Senior Scientist · Product Manager",
   tagline:
     "I build high-throughput organoid models and translational assays on pillar/perfusion platforms to accelerate drug discovery.",
   location: "Fort Worth, TX, USA",
   email: "pranav.mtn@gmail.com",
   resumeUrl: "/Pranav_Joshi_CV.pdf",
   headshot:
-    "https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=800&auto=format&fit=crop",
+    "/Pranav Joshi.jpg",
   socials: [
     { label: "LinkedIn", href: "https://www.linkedin.com/in/pranav-joshi-350b4b89/", Icon: Linkedin },
     { label: "Google Scholar", href: "https://scholar.google.com/citations?user=sfYx8TwAAAAJ", Icon: ExternalLink },
@@ -47,8 +47,6 @@ const PROJECTS = [
     description:
       "Led development and commercialization of 36/144/384PillarPlate formats and perfusion plates, enabling scalable and reproducible organoid culture for HTS.",
     tags: ["Organoids", "HTS", "Pillar/Perfusion"],
-    image:
-      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1200&auto=format&fit=crop",
     links: [{ label: "Publication", href: "https://pubmed.ncbi.nlm.nih.gov/36993405/", Icon: ExternalLink }],
   },
   {
@@ -56,17 +54,13 @@ const PROJECTS = [
     description:
       "Perfusion protocols reduced necrotic core formation and improved maturation, supporting neurotoxicity applications.",
     tags: ["Brain Organoids", "Perfusion", "Neurotox"],
-    image:
-      "https://images.unsplash.com/photo-1581091870622-7c74bff9a5bd?q=80&w=1200&auto=format&fit=crop",
-    links: [{ label: "Preprint", href: "https://www.biorxiv.org/content/10.1101/2024.03.25.586638v1", Icon: ExternalLink }],
+        links: [{ label: "Preprint", href: "https://www.biorxiv.org/content/10.1101/2024.03.25.586638v1", Icon: ExternalLink }],
   },
   {
     title: "Bioprinted Liver Tumor Spheroids for Drug Screening",
     description:
       "Dynamic culture workflow of bioprinted HCC spheroids for predictive anticancer drug screening.",
     tags: ["Liver Tumor", "3D Bioprinting", "Drug Screening"],
-    image:
-      "https://images.unsplash.com/photo-1582719478250-04d3d3e5d6cb?q=80&w=1200&auto=format&fit=crop",
     links: [{ label: "Article", href: "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/abs/10.1002/bit.28924", Icon: ExternalLink }],
   },
 ];
@@ -108,19 +102,18 @@ const EXPERIENCE = [
 
 const SKILLS = [
   "Product Development & Commercialization",
+  "NIH SBIR/Grant Writing",
   "3D Bioprinting",
   "Organoid Culture (Brain/Liver/Cardiac)",
   "High-Throughput Screening (HTS)",
-  "Pillar/Perfusion Platforms",
   "Assay Development",
   "High-Content Imaging",
   "Electrophysiology (MEA)",
-  "NIH SBIR/Grant Writing",
-];
+  ];
 
 const PUBLICATIONS = [
-  { title: "Dynamic perfusion enhances maturation of cerebral organoids", source: "bioRxiv, 2024", link: "https://www.biorxiv.org/content/10.1101/2024.03.25.586638v1" },
-  { title: "Dynamic culture of liver tumor spheroids for predictive anticancer drug screening", source: "Biotechnology & Bioengineering, 2025", link: "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/abs/10.1002/bit.28924" },
+  { title: "Regenerative human liver organoids (HLOs) in a pillar/perfusion plate for hepatotoxicity assays", source: "bioRxiv, 2024", link: "https://www.biorxiv.org/content/10.1101/2024.03.25.586638v1" },
+  { title: "Dynamic Culture of Bioprinted Liver Tumor Spheroids in a Pillar/Perfusion Plate for Predictive Screening of Anticancer Drugs", source: "Biotechnology & Bioengineering, 2025", link: "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/abs/10.1002/bit.28924" },
   { title: "Pillar/perfusion plate platform for robust human organoid culture", source: "ACS Biomaterials Sci Eng, 2024", link: "https://pubmed.ncbi.nlm.nih.gov/36993405/" },
 ];
 
